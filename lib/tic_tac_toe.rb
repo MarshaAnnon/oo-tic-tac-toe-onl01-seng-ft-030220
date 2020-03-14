@@ -91,11 +91,7 @@ class TicTacToe
     unless winning_combo != won?
       turn
     end
-    if over?
-      puts "Congratulations #{winning_combo}!"
-    else
-      "Cat's Game!"
-    end
+    
   end
 
 #if the game was won
