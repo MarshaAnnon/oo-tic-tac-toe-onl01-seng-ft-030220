@@ -81,12 +81,12 @@ class TicTacToe
   end
 
   def winner
-    if won?(board)
+    if won?
       winner(board) == "X" || winner(board) == "O"
       puts "Congratulations #{winner(board)}!"
    elsif draw?(board)
       puts "Cats Game!"
-   end 
+   end
   end
 # return X when X won
 end
