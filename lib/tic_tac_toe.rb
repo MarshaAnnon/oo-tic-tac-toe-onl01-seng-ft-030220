@@ -82,7 +82,6 @@ class TicTacToe
 
   def winner
     if winning_combo = won?
-
       return @board[winning_combo[0]]
     end
   end
@@ -91,8 +90,13 @@ class TicTacToe
     unless winning_combo = won?
       turn
     end
-    if over?
-      stop.play || turn
+    if draw?
+    	puts "Cat's Game!"
+    elsif winning_combo == "X" 
+    	puts "Congratulations X!"
+    else winner == "O"
+    	puts "Congratulations O!"
+    end
     end
 
   end
