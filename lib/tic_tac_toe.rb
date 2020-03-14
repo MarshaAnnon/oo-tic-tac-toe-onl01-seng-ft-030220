@@ -81,13 +81,12 @@ class TicTacToe
   end
 
   def winner
-    if won? == "X"
-     return "O"
-   else
-     return "X"
+    if won?
+      return "X" || "O"
+
    end
 
-   
+
   end
 
 
