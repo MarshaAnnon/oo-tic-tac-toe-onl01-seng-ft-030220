@@ -86,7 +86,7 @@ class TicTacToe
    else
      return "X"
    end
-   
+
    
   end
 
