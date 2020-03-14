@@ -81,11 +81,7 @@ class TicTacToe
   end
 
   def winner
-    WIN_COMBINATIONS.each do |position|
-      if current_player(position[0]) && @board[position[0]] == @board[position[1]] && @board[position[1]] == @board[position[2]]
-       return current_player
-      end
-    end
+    return "X" if "X" won?
   end
 # return X when X won
 end
