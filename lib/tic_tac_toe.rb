@@ -80,7 +80,7 @@ class TicTacToe
     return full? || won?
   end
 
-  def winner(board)
+  def winner
     if winner.won? == "X" || winner.won? == "O"
       return winner
     end
