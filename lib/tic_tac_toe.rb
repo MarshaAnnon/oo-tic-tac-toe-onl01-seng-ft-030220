@@ -81,7 +81,7 @@ class TicTacToe
   end
 
   def winner
-    @board.each do |winner|
+    @board.map do |winner|
     if winner == "X" || winner == "O"
       puts "Congratulations #{winner}!"
      end
