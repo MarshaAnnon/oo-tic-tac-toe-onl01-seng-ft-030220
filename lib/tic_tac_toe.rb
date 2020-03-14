@@ -81,7 +81,7 @@ class TicTacToe
   end
 
   def winner
-    if won?
+    if won? == position_taken?
       binding.pry
       return "X"
     else
