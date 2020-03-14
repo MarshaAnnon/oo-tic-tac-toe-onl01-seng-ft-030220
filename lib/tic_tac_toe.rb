@@ -92,7 +92,7 @@ class TicTacToe
     end
     binding.pry
     if won?
-      puts "Congratulations #{winning_combo}!"
+      puts "Congratulations #{winner}!"
     elsif draw?
       puts "Cat's Game!"
     end
