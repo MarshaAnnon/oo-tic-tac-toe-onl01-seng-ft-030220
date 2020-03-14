@@ -103,7 +103,7 @@ class TicTacToe
 #else if the game was a draw
 #  tell the players it ended in a draw
 #end
-  end
+  
 
 # expect(game).to receive(:gets).at_least(:once).and_return("1")
 
