@@ -85,7 +85,9 @@ class TicTacToe
      return "O"
    else
      return "X"
-
+   end
+   if over? || draw?
+     return nil
    end
   end
 
