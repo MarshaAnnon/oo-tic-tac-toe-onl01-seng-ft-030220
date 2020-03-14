@@ -81,9 +81,10 @@ class TicTacToe
   end
 
   def winner
-    
-  end
+    return won?
 
+  end
+# return X when X won
 end
 # 0 1 2
 # 3 4 5
