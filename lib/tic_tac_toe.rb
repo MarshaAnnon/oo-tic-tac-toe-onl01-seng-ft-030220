@@ -83,16 +83,9 @@ class TicTacToe
   def winner
     if winning_combo = won?
       binding.pry
-      return @board[winning_combo[0]
+      return @board[winning_combo[0]]
     end
-
-
-   end
-
-
   end
-
-
 
 
 
