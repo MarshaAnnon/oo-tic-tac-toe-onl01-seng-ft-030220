@@ -91,8 +91,8 @@ class TicTacToe
     unless winning_combo = won?
       turn
     end
-    if won?
-      puts "Congratulations #{winning_combo}!"
+    if over?
+      stop.play || turn
     end
 
   end
