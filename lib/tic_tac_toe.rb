@@ -81,7 +81,7 @@ class TicTacToe
   end
 
   def winner
-    if current_player == "X"
+    if current_player == won?
      return "O"
    else
      return "X"
