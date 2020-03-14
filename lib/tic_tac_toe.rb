@@ -88,9 +88,10 @@ class TicTacToe
   end
 
   def play
-
+    turn until over?
   end
 
+# expect(game).to receive(:gets).at_least(:once).and_return("1")
 
 end
 # 0 1 2
