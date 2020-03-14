@@ -90,7 +90,6 @@ class TicTacToe
     unless won?
       turn
     end
-    binding.pry
     if winner == "X"
       puts "Congratulations X!"
     elsif
