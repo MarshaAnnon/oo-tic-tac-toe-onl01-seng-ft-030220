@@ -91,7 +91,7 @@ class TicTacToe
       turn
     end
     binding.pry
-    if won?
+    if winner
       puts "Congratulations #{winner}!"
     elsif draw?
       puts "Cat's Game!"
