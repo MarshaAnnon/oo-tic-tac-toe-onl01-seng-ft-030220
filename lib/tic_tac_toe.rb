@@ -97,6 +97,7 @@ class TicTacToe
     elsif winner == "O"
     	puts "Congratulations O!"
     end
+  end
 #if the game was won
 #  congratulate the winner
 #else if the game was a draw
