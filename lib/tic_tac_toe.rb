@@ -87,7 +87,7 @@ class TicTacToe
   end
 
   def play
-    unless @board = won?
+    unless winning_combo = won?
       turn
     end
     if won?
