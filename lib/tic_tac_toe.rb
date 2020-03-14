@@ -81,7 +81,7 @@ class TicTacToe
   end
 
   def winner
-    if winner(@board) == "X" || winner(@board) == "O"
+    if winner.@board == "X" || winner.@board == "O"
       puts "Congratulations #{winner}!"
      end
   end
