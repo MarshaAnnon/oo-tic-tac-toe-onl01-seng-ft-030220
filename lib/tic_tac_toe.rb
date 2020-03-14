@@ -90,9 +90,9 @@ class TicTacToe
     unless won?
       turn
     end
-    if winner(board)
+    if winner
     puts "Congratulations #{winner}!"
-  elsif draw?(board)
+  elsif draw?
     puts "Cat's Game!"
   else
     return nil
