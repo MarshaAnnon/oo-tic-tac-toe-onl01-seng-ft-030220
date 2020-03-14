@@ -82,6 +82,7 @@ class TicTacToe
 
   def winner
     if won?
+      binding.pry
       return "X"
     else
       "O"
