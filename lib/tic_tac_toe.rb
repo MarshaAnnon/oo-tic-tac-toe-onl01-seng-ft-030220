@@ -94,7 +94,7 @@ class TicTacToe
     puts "Congratulations #{winner}!"
   elsif draw?
     puts "Cat's Game!"
-  else
+  elsif
     return nil
   end
   end
