@@ -92,7 +92,7 @@ class TicTacToe
     end
     if draw?
     	puts "Cat's Game!"
-    elsif winning_combo == "X" 
+    elsif winning_combo == "X"
     	puts "Congratulations X!"
     else winner == "O"
     	puts "Congratulations O!"
