@@ -87,7 +87,7 @@ class TicTacToe
   end
 
   def play
-    unless winning_combo = won?
+    unless @board[winning_combo[0]] = won?
       turn
     end
     if won?
@@ -103,7 +103,7 @@ class TicTacToe
 #end
 
 
-# expect(game).to receive(:gets).at_least(:once).and_return("1")
+
 
 end
 # 0 1 2
