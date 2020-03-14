@@ -83,10 +83,8 @@ class TicTacToe
   def winner
    if current_player == "X"
      return "O"
-   elsif
-     return "X"
    else
-     puts "Cat's Game!"
+     return "X"
    end
    nil
  end
