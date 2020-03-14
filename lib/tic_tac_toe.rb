@@ -82,7 +82,7 @@ class TicTacToe
 
   def winner
     if winner.won? == "X" || winner.won? == "O"
-      puts "Congratulations #{winner}"
+      puts "Congratulations #{winner}(board)!"
      end
   end
 # return X when X won
