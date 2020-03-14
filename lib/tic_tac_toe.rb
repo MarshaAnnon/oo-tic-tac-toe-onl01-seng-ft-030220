@@ -85,6 +85,7 @@ class TicTacToe
     if winner == "X" || winner == "O"
       puts "Congratulations #{winner}!"
      end
+   end
   end
 # return X when X won
 end
