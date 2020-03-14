@@ -92,7 +92,7 @@ class TicTacToe
   end
   if won?
     puts "Congratulations #{winner}"
-  elsif draw?(board)
+  elsif draw?
     puts "There has been a tie"
   end
 end
