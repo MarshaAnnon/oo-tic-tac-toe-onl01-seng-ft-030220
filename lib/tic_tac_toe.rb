@@ -81,14 +81,19 @@ class TicTacToe
   end
 
   def winner
-    if won?
-      winner(board) == "X" || winner(board) == "O"
-      puts "Congratulations #{winner(board)}!"
-   elsif draw?(board)
-      puts "Cats Game!"
+    if over? || draw?
+      puts "Cat\'s Game!"
+  elsif
+    current_player == "X"
+     "X"
+   else
+     "O"
    end
   end
-# return X when X won
+# return X when X woreturn self.won? || self.draw?
+
+
+ 
 end
 # 0 1 2
 # 3 4 5
