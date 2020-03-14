@@ -81,7 +81,7 @@ class TicTacToe
   end
 
   def winner
-    
+    winner.board == "X" || winner.board == "O"
   end
 # return X when X won
 end
