@@ -90,14 +90,13 @@ class TicTacToe
     unless won?
       turn
     end
-    if winner == "X"
-      puts "Congratulations X!"
-    elsif
-      winner == "O"
-        puts "Congratulations O!"
-    elsif draw?
-      puts "Cat's Game!"
-    end
+    if winner(board)
+    puts "Congratulations #{winner}!"
+  elsif draw?(board)
+    puts "Cat's Game!"
+  else
+    return nil
+  end
   end
 #if the game was won
 #  congratulate the winner
