@@ -81,9 +81,6 @@ class TicTacToe
   end
 
   def winner
-    if over? || draw?
-     puts "Cat\'s Game!"
-   end
    if current_player == "X"
      return "O"
    else
