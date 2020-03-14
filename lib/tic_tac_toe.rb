@@ -90,15 +90,8 @@ class TicTacToe
     unless winning_combo = won?
       turn
     end
-    if draw?
-    	puts "Cat's Game!"
-    elsif winning_combo == "X"
-    	puts "Congratulations X!"
-    else 
-    	puts "Congratulations O!"
-    end
-    end
-
+    if won?
+      puts "Congratulations #{winning_combo}!"
   end
 
 #if the game was won
