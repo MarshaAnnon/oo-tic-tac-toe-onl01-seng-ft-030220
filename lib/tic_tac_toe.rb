@@ -86,7 +86,7 @@ class TicTacToe
    elsif
      return "X"
    else
-     puts "Cat\'s Game!"
+     puts "Cat's Game!"
    end
  end
 
