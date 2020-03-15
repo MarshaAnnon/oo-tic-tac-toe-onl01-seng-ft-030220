@@ -100,8 +100,8 @@ class TicTacToe
   end
 end
 def play
-    
-    
+
+
 #if the game was won
 #  congratulate the winner
 #else if the game was a draw
