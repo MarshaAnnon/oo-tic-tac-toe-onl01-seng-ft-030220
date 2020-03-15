@@ -7,6 +7,7 @@ class TicTacToe
 
   def initialize
     @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+    @@TicTacToe << self
 
   end
 
