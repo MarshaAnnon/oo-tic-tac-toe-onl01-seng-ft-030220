@@ -86,19 +86,18 @@ class TicTacToe
     end
   end
 
-  def play
-    until over?
-    turn += 1
-  end
-
-    if won?
-  winning_combo == "X" || winning_combo == "O"
-    puts "Congratulations #{winner}!"
-  else draw?
+  def play(board)
+  play = 0
+  input = gets
+  until over?(board)
+  turn(board)
+end
+  if won?(board)
+  winner(board) == "X" || winner(board) == "O"
+    puts "Congratulations #{winner(board)}!"
+  else draw?(board)
   puts "Cat's Game!"
-    end
-  end
-
+end
 
 end
 
