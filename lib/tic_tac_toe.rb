@@ -89,7 +89,7 @@ class TicTacToe
   def play
 binding.pry
   unless over?
-    turn
+    turn_count
   end
   if winner == "X"
     puts "Congratulations X!"
