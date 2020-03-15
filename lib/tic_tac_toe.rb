@@ -88,7 +88,7 @@ class TicTacToe
 
   def play
   turn unless over?
-    
+
   end
   if won?
     puts "Congratulations #{winner}!"
