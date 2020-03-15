@@ -90,6 +90,7 @@ class TicTacToe
 binding.pry
   unless over?
     turn
+  end
   if winner == "X"
     puts "Congratulations X!"
   elsif winner == "O"
