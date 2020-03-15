@@ -88,7 +88,7 @@ class TicTacToe
 
   def play
   unless over?
-    turn_count
+    turn
   end
   if winning_combo == "X"
     puts "Congratulations X!"
