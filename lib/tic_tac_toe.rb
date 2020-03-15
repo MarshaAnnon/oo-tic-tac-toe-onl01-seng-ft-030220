@@ -87,7 +87,6 @@ class TicTacToe
   end
 
   def play
-binding.pry
   unless over?
     turn_count
   end
