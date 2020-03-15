@@ -97,6 +97,6 @@ class TicTacToe
   end
 end
 
-game = self.new
+game = Self.new
 game
 game.play
