@@ -87,6 +87,8 @@ class TicTacToe
   end
 
   def play
+  play = 0
+  input = gets
   unless over?
     turn
     if won?
