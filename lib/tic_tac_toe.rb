@@ -97,4 +97,4 @@ class TicTacToe
 end
 binding.pry
 game = TicTacToe.new
-game
+
