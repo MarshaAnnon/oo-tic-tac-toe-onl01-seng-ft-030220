@@ -6,7 +6,6 @@ class TicTacToe
 
   def initialize
     @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-    @@all << self
   end
 
   def display_board
@@ -96,7 +95,3 @@ class TicTacToe
     end
   end
 end
-
-game = Self.new
-game
-game.play
