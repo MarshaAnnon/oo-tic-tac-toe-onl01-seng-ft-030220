@@ -1,7 +1,7 @@
 require "pry"
 
 class TicTacToe
-  @@TicTacToe
+  
 
   WIN_COMBINATIONS = [[0,1,2], [3,4,5], [6,7,8], [0,3,6], [1,4,7], [2,5,8], [0,4,8], [6,4,2]]
 
@@ -95,23 +95,4 @@ class TicTacToe
       puts "Cat's Game!"
     end
   end
-
 end
-
-game = TicTacToe.new
-game.play
-
-
-#if the game was won
-#  congratulate the winner
-#else if the game was a draw
-#  tell the players it ended in a draw
-#end
-
-
-
-
-
-# 0 1 2
-# 3 4 5
-# 6 7 8
