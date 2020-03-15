@@ -88,9 +88,9 @@ class TicTacToe
 
   def play
   unless over?
-    turn += 1
+    turn 
   end
-  
+
 end
 
 
