@@ -99,7 +99,7 @@ binding.pry
   else
   end
 end
-def play
+
 
 
 #if the game was won
