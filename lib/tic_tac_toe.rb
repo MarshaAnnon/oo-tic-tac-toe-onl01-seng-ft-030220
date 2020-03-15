@@ -91,9 +91,9 @@ binding.pry
   unless over?
     turn_count
   end
-  if winner == "X"
+  if winning_combo == "X"
     puts "Congratulations X!"
-  elsif winner == "O"
+  elsif winning_combo == "O"
     puts "Congratulations O!"
   elsif draw?
     puts "Cat's Game!"
