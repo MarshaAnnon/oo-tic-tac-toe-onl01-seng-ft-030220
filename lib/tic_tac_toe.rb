@@ -90,10 +90,10 @@ class TicTacToe
   unless over?
     turn += 1
   end
-  if winner == "X"
-    puts "Congratulations X!"
+  if won? 
+    puts "Congratulations X!" || "Congratulations O!"
   elsif winner == "O"
-    puts "Congratulations O!"
+    puts
   elsif draw?
     puts "Cat's Game!"
   else
