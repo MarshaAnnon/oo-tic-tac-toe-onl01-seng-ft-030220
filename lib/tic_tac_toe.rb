@@ -87,7 +87,7 @@ class TicTacToe
   end
 
   def play
-    @board[winning_combo[0]]
+binding.pry
   unless over?
     turn
   if winner == "X"
