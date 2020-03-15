@@ -87,10 +87,12 @@ class TicTacToe
   end
 
   def play
-  unless over?
-  end
+    play = 0
+    input = gets
+    until over?
     turn
-  
+  end
+
     if won?
   winning_combo == "X" || winning_combo == "O"
     puts "Congratulations #{winner}!"
