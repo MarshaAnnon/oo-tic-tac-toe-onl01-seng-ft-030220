@@ -88,7 +88,7 @@ class TicTacToe
 
   def play
   unless over?
-    turn_count 
+    turn
   end
 
 end
