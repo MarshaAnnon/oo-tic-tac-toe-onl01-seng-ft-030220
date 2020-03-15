@@ -98,9 +98,10 @@ class TicTacToe
     end
   end
 
+end
 
-
-
+game = TicTacToe.new
+game.play
 
 
 #if the game was won
@@ -112,7 +113,7 @@ class TicTacToe
 
 
 
-end
+
 # 0 1 2
 # 3 4 5
 # 6 7 8
