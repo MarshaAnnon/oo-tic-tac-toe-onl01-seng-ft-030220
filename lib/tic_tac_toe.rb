@@ -90,9 +90,9 @@ class TicTacToe
   unless over?
     turn += 1
   end
-  if winning_combo == "X"
+  if winner == "X"
     puts "Congratulations X!"
-  elsif winning_combo == "O"
+  elsif winner == "O"
     puts "Congratulations O!"
   elsif draw?
     puts "Cat's Game!"
