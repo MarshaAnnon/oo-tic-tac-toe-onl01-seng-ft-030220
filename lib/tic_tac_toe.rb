@@ -99,4 +99,4 @@ class TicTacToe
 end
 
 game = TicTacToe.new
-return game
+game.TicTacToe
