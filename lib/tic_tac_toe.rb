@@ -87,8 +87,9 @@ class TicTacToe
   end
 
   def play
+    @board[winning_combo[0]]
   unless over?
-    turn.any?
+    turn
   if winner == "X"
     puts "Congratulations X!"
   elsif winner == "O"
@@ -98,8 +99,9 @@ class TicTacToe
   else
   end
 end
-
-end
+def play
+    
+    
 #if the game was won
 #  congratulate the winner
 #else if the game was a draw
