@@ -88,6 +88,7 @@ class TicTacToe
 
   def play
     unless over?
+      "Please select a valid move"
       turn
     end
     if won?
