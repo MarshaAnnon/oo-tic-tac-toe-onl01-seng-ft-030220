@@ -7,6 +7,7 @@ class TicTacToe
 
   def initialize
     @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+    @game = game
 
   end
 
@@ -99,4 +100,4 @@ class TicTacToe
 end
 
 game = TicTacToe.new
-game.TicTacToe
+game
